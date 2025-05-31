@@ -1,4 +1,4 @@
-package seleniumTest.class12;
+package seleniumTest.class2;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
