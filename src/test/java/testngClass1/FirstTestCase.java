@@ -11,7 +11,7 @@ import java.time.Duration;
 
 public class FirstTestCase {
 
-    @Test(priority = 0, enabled = false)
+    @Test(priority = 0, enabled = true)
     public void testDoubleClick1() throws InterruptedException {
         WebDriver driver = new ChromeDriver();
         Thread.sleep(4000);
@@ -32,7 +32,7 @@ public class FirstTestCase {
     }
 
 
-    @Test(priority = 1, enabled = false)
+    @Test(priority = 1, enabled = true)
     public void checkPageTittle2() throws InterruptedException {
         WebDriver driver = new ChromeDriver();
         Thread.sleep(4000);
