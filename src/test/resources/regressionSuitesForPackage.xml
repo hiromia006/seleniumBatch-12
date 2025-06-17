@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="/home/jannat-mugdho/gitHubProjects/batches/Batch12/seleniumBatch-12">
+        <packages>
+            <package name="testngClass1"/>
+            <package name="testngClass2"/>
+            <package name="seleniumTest.class1"/>
+        </packages>
+    </test>
+</suite>

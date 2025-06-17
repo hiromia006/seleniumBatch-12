@@ -5,7 +5,7 @@ import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class ClassAnnotationTest extends BaseClassTest {
+public class ClassAnnotationTest extends BaseAnnotationClassTest {
     @Test(priority = 0)
     public void testDoubleClick4() {
         // Navigate to the practice page for buttons
