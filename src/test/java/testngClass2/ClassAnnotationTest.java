@@ -5,9 +5,9 @@ import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class ClassTest extends BaseClassTest {
+public class ClassAnnotationTest extends BaseClassTest {
     @Test(priority = 0)
-    public void testDoubleClick() {
+    public void testDoubleClick4() {
         // Navigate to the practice page for buttons
         driver.get("https://www.tutorialspoint.com/selenium/practice/buttons.php");
 
@@ -20,7 +20,7 @@ public class ClassTest extends BaseClassTest {
 
 
     @Test(priority = 1)
-    public void checkPageTittle() throws InterruptedException {
+    public void checkPageTittle5() throws InterruptedException {
         driver.get("https://www.tutorialspoint.com/selenium/practice/buttons.php");
         String title = driver.getTitle().trim();
         Assert.assertEquals(title, "Selenium Practice - Buttons");
@@ -28,7 +28,7 @@ public class ClassTest extends BaseClassTest {
     }
 
     @Test(priority = 2)
-    public void validatePageUrl() throws InterruptedException {
+    public void validatePageUrl6() throws InterruptedException {
         driver.get("https://www.tutorialspoint.com/selenium/practice/buttons.php");
         String url = driver.getCurrentUrl().trim();
         Assert.assertEquals(url, "https://www.tutorialspoint.com/selenium/practice/buttons.php");

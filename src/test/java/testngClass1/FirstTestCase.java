@@ -12,7 +12,7 @@ import java.time.Duration;
 public class FirstTestCase {
 
     @Test(priority = 0, enabled = false)
-    public void testDoubleClick() throws InterruptedException {
+    public void testDoubleClick1() throws InterruptedException {
         WebDriver driver = new ChromeDriver();
         Thread.sleep(4000);
         driver.manage().window().maximize();
@@ -33,7 +33,7 @@ public class FirstTestCase {
 
 
     @Test(priority = 1, enabled = false)
-    public void checkPageTittle() throws InterruptedException {
+    public void checkPageTittle2() throws InterruptedException {
         WebDriver driver = new ChromeDriver();
         Thread.sleep(4000);
         driver.manage().window().maximize();
@@ -49,7 +49,7 @@ public class FirstTestCase {
     }
 
     @Test(priority = 2)
-    public void validatePageUrl() throws InterruptedException {
+    public void validatePageUrl3() throws InterruptedException {
         WebDriver driver = new ChromeDriver();
         Thread.sleep(4000);
         driver.manage().window().maximize();
